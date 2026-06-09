@@ -1,47 +1,41 @@
-# پروژه اسکرپر - استخراج پروژه‌های طراحی سایت
+# پروژه اسکرپر - استخراج پروژه‌های طراحی سایت از پونیشا و کارلنسر
 
-اسکرپر حرفه‌ای برای استخراج پروژه‌های «طراحی سایت» از پونیشا و کارلنسر با قابلیت استخراج شماره تلفن.
+این اسکریپت پروژه‌های «طراحی سایت» را از سایت‌های پونیشا و کارلنسر استخراج کرده و در فایل output.json ذخیره می‌کند.
 
-## ✨ قابلیت‌ها
+## قابلیت‌ها
 
 - استخراج عنوان پروژه
 - استخراج مهارت‌های مورد نیاز
-- استخراج لینک مستقیم پروژه
-- **استخراج شماره تلفن** (برای تماس با کارفرما)
-- ذخیره خروجی در JSON و Excel
-- جلوگیری از بن شدن با تأخیر تصادفی
-- پشتیبانی از اعداد فارسی و انگلیسی
+- استخراج لینک پروژه
+- پشتیبانی از چندین صفحه
+- ذخیره خروجی در فایل JSON
+- جلوگیری از بن شدن با تأخیر تصادفی بین درخواست‌ها
 
-## 🚀 نصب و اجرا
+## نصب و اجرا
 
 ```bash
-# 1. کلون مخزن
 git clone https://github.com/m-Researcher-Dev/web-scraper-for-freelance-jobs.git
 cd web-scraper-for-freelance-jobs
-
-# 2. نصب کتابخانه‌ها
-pip install requests beautifulsoup4 colorama pandas openpyxl
-
-# 3. اجرا
+pip install requests beautifulsoup4 colorama
 python scraper.py
 ```
 
-## 📁 خروجی
+## خروجی
 
-- `projects.json` - فایل JSON با اطلاعات کامل
-- `projects.xlsx` - فایل Excel برای مشاهده آسان
+فایل output.json در همان پوشه ساخته می‌شود.
 
-## 🛠 تکنولوژی‌ها
+## تکنولوژی‌ها
 
 - Python 3
 - BeautifulSoup4
 - Requests
 - Colorama
-- Pandas (خروجی Excel)
+- JSON
 
-## 👨‍💻 نویسنده
+## نویسنده
 
 محمدجواد  
-- برنده جایزه ملی خوارزمی  
-- رتبه اول استان  
-- [GitHub](https://github.com/m-Researcher-Dev/web-scraper-for-freelance-jobs)
+برنده جایزه ملی خوارزمی  
+رتبه اول استان  
+
+[GitHub](https://github.com/m-Researcher-Dev/web-scraper-for-freelance-jobs)
